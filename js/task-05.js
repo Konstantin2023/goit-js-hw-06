@@ -11,5 +11,5 @@ const spanText = document.querySelector("#name-output");
 // }
 
 inputText.addEventListener("input", (event) => {
-  inputText.textContent = event.currentTarget.value;
+  spanText.textContent = event.currentTarget.value;
 });
